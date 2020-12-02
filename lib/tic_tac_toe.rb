@@ -53,6 +53,12 @@ class TicTacToe
     counter 
   end 
   
-  
+  def current_player 
+    if turn_count.odd?
+      "X"
+    else 
+      "O"
+    end 
+  end 
   
 end 
