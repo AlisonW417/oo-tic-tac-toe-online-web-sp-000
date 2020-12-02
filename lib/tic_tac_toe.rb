@@ -115,8 +115,7 @@ class TicTacToe
       turn 
       counter +=1 
     end 
-    if won? 
-      game_winner = winner
+    if won?
       puts "Congratulations #{winner}!"
     else 
       puts "Cat's Game!"
