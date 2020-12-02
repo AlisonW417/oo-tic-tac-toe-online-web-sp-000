@@ -61,4 +61,10 @@ class TicTacToe
     end 
   end 
   
+  def turn 
+    puts "Please pick position 1-9."
+    gets.strip 
+    
+  end 
+  
 end 
